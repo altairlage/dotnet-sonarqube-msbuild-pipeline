@@ -42,6 +42,14 @@ After the first Jenkins pipeline run, Jenkins will install the SonarScanner for 
 Example: ![image](https://user-images.githubusercontent.com/1898233/184917273-b0363b07-de6f-4603-af2e-2c3fa068ac94.png)
 
 
+## Reports
+The pipeline refered in the Jenkinsfile in this repo would build the projects and send reports to SonarQube server.
+NOTE: It makes the build time to increase a lot. Maybe due to the process of indexing the files to send reports.
+
+Examples:
+![image](https://user-images.githubusercontent.com/1898233/184920538-779fd2c6-80b3-47e5-942d-33bc312b3b5d.png)
+
+
 ## References:
 https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-msbuild/
 https://docs.sonarqube.org/latest/analysis/languages/cfamily/
