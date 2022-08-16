@@ -11,10 +11,10 @@ This step must be done in every Jenkins Controller that will use this node to ru
 
 1. Navigate to Jenkins/<Controller>/Manage Jenkins/Configure system
 2. Under 'SonarQube servers' click 'Add SonarQube' to add a new entry called 'SonarQubeMSBuild' with our production SonarQube server info
-2.1. Name: SonarQubeMSBuild
-2.2. Server URL: https://<Sonar server URL>
-2.3. Server authentication token: Select the credential which allows jenkins in sonarqube (Sonarqube user)
-2.4. Example: ![image](https://user-images.githubusercontent.com/1898233/184916494-cfd9611e-ffcd-4fcb-a4c8-d2c1935597d8.png)
+  2.1. Name: SonarQubeMSBuild
+  2.2. Server URL: https://<Sonar server URL>
+  2.3. Server authentication token: Select the credential which allows jenkins in sonarqube (Sonarqube user)
+  2.4. Example: ![image](https://user-images.githubusercontent.com/1898233/184916494-cfd9611e-ffcd-4fcb-a4c8-d2c1935597d8.png)
 3. Save
 
 
@@ -23,10 +23,10 @@ This step must be done in every Jenkins Controller that will use this node to ru
 
 1. Navigate to Jenkins/<Controller>/Manage Jenkins/Global Tool Configuration
 2. Under 'SonarScanner for MSBuild' Click 'Add SonarScanner for MSBuild' to add a new installation
-2.1. Name: SonarQubeMSBuild
-2.2. Check 'Install automatically' option
-2.3. Version: Pick the latest version
-2.4. Example: ![image](https://user-images.githubusercontent.com/1898233/184916655-6c9206c9-6b68-4fd7-a59e-81a12b728582.png)
+  2.1. Name: SonarQubeMSBuild
+  2.2. Check 'Install automatically' option
+  2.3. Version: Pick the latest version
+  2.4. Example: ![image](https://user-images.githubusercontent.com/1898233/184916655-6c9206c9-6b68-4fd7-a59e-81a12b728582.png)
 3. Save
 
 
